@@ -1,0 +1,51 @@
+.search-form{
+    width: 90%;
+    margin: 0 auto;
+}
+.search-form > input{
+    border-radius: 5px 0px 0px 5px;
+    height: 40px;
+    width: 70%;
+    display: inline-block;
+    border: 2px solid var(--text-color);
+    font-size: 1rem;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    padding: 0;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    color: var(--text-color)
+}
+.search-form > button {
+    width: 30%;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    background-size: 40px 40px;
+    border: solid 2px var(--text-color);
+    color: var(--main-bg-color);
+    transition: all ease 0.3s;
+    border-bottom-width: 1px;
+    border-left: 0;
+    box-sizing: border-box;
+}
+
+.mag-glass{
+    position: absolute;
+    top: 30%;
+    right: 0.6em;
+    transition: all ease 0.3s;
+    opacity: 0 !important;
+}
+
+.search-form > button:hover{
+    padding-right: 30px;
+}
+
+.search-form > button:hover > .mag-glass{
+    right: 1.2em;
+    opacity: 1 !important;
+}
