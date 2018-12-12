@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 :root{
-    --main-bg-color: #FEF2E4;
-    --primary-color: #C60000;
-    --accent-color: #FD974F;
-    --secondary-color: #805A3B;
-    --text-color: #231B12;
+    --main-bg-color: #20232A;
+    --primary-color: #A01D26;
+    --accent-color: #262f34;
+    --text-color: #F4F4EF;
 }
